@@ -26,21 +26,29 @@
 คุณสามารถใช้นำเสนอผังการทำงาน (Workflow) ให้เห็นภาพลำดับการประมวลผล
 
 
+
         [User Prompt / Client Node]
+        
                     │
                     ▼
+                    
    [Debian Server (10.90.147.85:11434)]  <-- Ollama API
+   
                     │
                     ▼
+                    
    [hermes-router (Qwen2.5-1.5B Q4_K_M)] <-- Fast Decision Engine (~0.2s)
+   
                     │
           ┌─────────┴────────────────────────┐
           │                                  │
           ▼                                  ▼
+          
 [Action: execute_tool]               [Action: reject]
 - Output: Strict JSON                - Output: Safety Guardrail JSON
 - Target: Local System Executors     - Target: Halt & Report Risk
   (RAM, CPU, Filesystem, Bash)
+
 
 
 
