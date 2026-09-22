@@ -73,8 +73,7 @@ Lightweight and deterministic decision router built on top of Qwen2.5-1.5B-Instr
 
 โปรเจกต์นี้ทำมาเพื่อแก้ปัญหาเรื่อง *ความเร็ว (Speed), ความเสถียรของฟอร์แมต (Structured Output), และความปลอดภัย (Security)* สำหรับการควบคุม AI Agent ครับ
 
-https://www.mediafire.com/file/99dcwoooi2gjtrx/qwen2.5-1.5b-instruct.Q4_K_M.gguf/file
-https://www.mediafire.com/file/94f46rnnbv6oazv/Modelfile/file
+
 
 1. การเตรียมโมเดลบน Ollama (Model Setup)
 
